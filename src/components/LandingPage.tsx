@@ -29,7 +29,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onReveal }) => {
           </p>
           <RevealButton 
             onClick={onReveal} 
-            text="¿Quieres ver la sorpresa? 👉👈" 
+            text={`¿Quieres ver la sorpresa?\n👉👈`}  
           />
         </motion.div>
       </GlassmorphicCard>

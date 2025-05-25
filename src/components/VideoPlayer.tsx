@@ -14,7 +14,7 @@ const VideoPlayer: React.FC<{ isPlaying: boolean }> = ({ isPlaying }) => {
           style={{ zIndex: 10 }}
         >
           <video
-            src="video/ml.mp4"
+            src="video/ml.webm"
             className="absolute top-0 left-0 w-full h-full object-cover"
             autoPlay
             loop
