@@ -53,7 +53,7 @@ const DedicationPage: React.FC = () => {
 
 
           <AnimatedText
-            text="Cada palabra en esta página es para ti, porque significas más de lo que las palabras pueden decir. 🌹✨"
+            text="Para Jenifer, la chica que se duerme en el micro jsjsj, bueno espero pronto mejore tu salud, el sabado te llevo al medico, espero te guste esta pagina porque existira por siempre xd🌹✨"
             className="text-black text-lg md:text-xl font-playfair leading-relaxed font-bold"
             delay={0.3}
             duration={0.8}
