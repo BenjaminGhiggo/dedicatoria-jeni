@@ -13,15 +13,14 @@ const VideoPlayer: React.FC<{ isPlaying: boolean }> = ({ isPlaying }) => {
           className="fixed inset-0 w-full h-full overflow-hidden bg-black"
           style={{ zIndex: 10 }}
         >
-          <iframe
-            src="public\video\ml.mp4"
-
-            className="absolute top-0 left-0 w-full h-full"
-            frameBorder="0"
-            allow="autoplay; fullscreen"
-            allowFullScreen
-            title="The Story of Flowers"
-          ></iframe>
+          <video
+            src="/video/ml.mp4" // NO pongas 'public' en la URL
+            className="absolute top-0 left-0 w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
         </motion.div>
       )}
     </AnimatePresence>
