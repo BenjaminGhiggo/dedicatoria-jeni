@@ -13,13 +13,14 @@ const VideoPlayer: React.FC<{ isPlaying: boolean }> = ({ isPlaying }) => {
           className="fixed inset-0 w-full h-full overflow-hidden bg-black"
           style={{ zIndex: 10 }}
         >
-          <video
-            src="video/ml.webm"
-            className="absolute top-0 left-0 w-full h-full object-cover"
-            autoPlay
-            loop
-            playsInline
-          />
+          <iframe
+            src="https://player.vimeo.com/video/1087461369?h=fd80a4488e&autoplay=1&loop=1&muted=0&background=1"
+            className="absolute top-0 left-0 w-full h-full"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+            allowFullScreen
+            title="ml"
+          ></iframe>
         </motion.div>
       )}
     </AnimatePresence>
